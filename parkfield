@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+BEGIN {
+	push @INC, 'Parkfield';
+}
+use Parkfield;
+Parkfield->run;
